@@ -5,9 +5,6 @@
 
 # Windows
 
-## Tips
-由于本人已经转入linux平台，所以文件路径需要进行修改
-
 ## 工具
 * Convert.bat   将目录下png文件转换为eps文件
 * Created.bat   实现tex文件到pdf的自动转换
