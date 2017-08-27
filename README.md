@@ -11,8 +11,8 @@
 * Clear.bat     清理临时文件
 
 # Linux
-* Created.bat   实现tex文件到pdf的自动转换
-* Clear.bat     清理临时文件
+* Created.sh    实现tex文件到pdf的自动转换
+* Clear.sh      清理临时文件
 
 ## 工具
 
