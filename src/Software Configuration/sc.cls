@@ -1,43 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{sc}[2018/3/13 v0.1 Report Template for Software Configuration]
 
-\LoadClass[11pt,a4paper,fancyhdr,fntef, UTF8]{ctexart}[2017/1/1]
+\LoadClass{BaseSetting}[2017/1/1]
 
-% 调整页面大小，默认页面与常用规格不符
-\RequirePackage[margin=1in,top=1.5in]{geometry}
-
-% 插入数学公式
-\RequirePackage{amsmath,amsthm,amsfonts,amssymb,bm}
-
-% 链接点击
-\RequirePackage{cite}
-\RequirePackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=green]{hyperref}
-
-% 图表相关
-\RequirePackage{float,graphicx,tikz,pgfplots,array}
-\usetikzlibrary{graphdrawing,graphs,trees,shapes,snakes,arrows,backgrounds}
-\usegdlibrary{layered}
-
-% 用于插入C代码
-\RequirePackage{minted}
-
-% 设置页眉
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{} % 清空当前的页眉页脚
 \fancyhead[L]{\heiti 软件构造课程实验报告}
 \fancyhead[R]{\heiti 实验\SC@value@expnum：\SC@value@expname}
-
-\bibliographystyle{plain}
-\numberwithin{figure}{section}
-
-\ctexset{
-    section={
-        name={第,章},
-        number=\arabic{section},
-        format=\Large\bfseries\raggedright\heiti
-    }
-}
 
 % 姓名，学号，班号，邮箱，电话号码
 \newcommand\infoauthor[5]{\def\SC@value@author{#1} \def\SC@value@ident{#2} 
