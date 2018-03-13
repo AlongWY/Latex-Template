@@ -40,6 +40,7 @@
         \vfill
         {\huge \textbf{计算机科学与技术学院}}
     \end{center}
+    \newpage
 }
 
 \endinput
