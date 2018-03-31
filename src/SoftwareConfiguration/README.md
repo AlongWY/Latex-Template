@@ -19,6 +19,20 @@
 \end{table}
 ```
 
+## 插入代码
+
+```latex
+\begin{minted}[frame=lines]{sh}
+
+public class Main(){
+    static void main(String[] args){
+        .....
+    }
+}
+
+\end{minted}
+```
+
 ## 使用方法
 
 ```latex
