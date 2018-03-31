@@ -13,7 +13,7 @@
 % 实验序号，实验名称
 \newcommand\infoexp[2]{\def\SC@value@expnum{#1} \def\SC@value@expname{#2}}
 
-\newcommand\dlmu[2][4cm]{\hskip1pt\underline{\hb@xt@ #1{\hss#2\hss}}\hskip3pt}
+\newcommand\giturl{\href{https://github.com/ComputerScienceHIT/Lab2-\SC@value@ident}{Lab2-\SC@value@ident}}
 
 \renewcommand\maketitle{%
     \clearpage
