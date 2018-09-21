@@ -15,8 +15,8 @@
 
 % 图表相关
 \RequirePackage{float,graphicx,tikz,pgfplots,array}
-\usetikzlibrary{graphdrawing,graphs,trees,shapes,snakes,arrows,backgrounds}
-\usegdlibrary{layered}
+% \usetikzlibrary{graphdrawing,graphs,trees,shapes,snakes,arrows,backgrounds}
+% \usegdlibrary{layered}
 
 % 用于插入C代码
 \RequirePackage{minted}
