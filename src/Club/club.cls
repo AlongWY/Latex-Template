@@ -10,6 +10,7 @@
 
 % 社团名称
 \newcommand\infoName[1]{\def\CLUB@value@name{#1}}
+\newcommand\infoAuthor[1]{\def\CLUB@value@author{#1}}
 
 \renewcommand\maketitle{%
     \clearpage
@@ -26,7 +27,7 @@
         \textbf{{\zihao{0} 社团章程}}
 
         \vfill
-        {\huge \textbf{冯云龙}}
+        {\huge \textbf{\CLUB@value@author}}
 
         \vspace{1cm}
         

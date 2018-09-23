@@ -4,6 +4,8 @@
 
 [软件构造](src/SoftwareConfiguration/README.md)
 
+[机器学习](src/ML/README.md)
+
 ## 环境要求
 * 操作系统：Linux/Windows
 * 编译器：Luatex,Bibtex
