@@ -604,6 +604,17 @@
   \end{tabular*}%
 }
 
+% Define an entry of cv social
+% Usage: \cvsocial{<title>}{<date>}
+\newcommand*{\cvsocial}[2]{%
+  \vspace{-3.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \entrytitlestyle{#1} & \subentrydatestyle{#2}
+  \end{tabular*}%
+}
+
 % Define an entry of cv experience
 % Usage: \cvexperience{<title>}{<date>}{<description>}
 \newcommand*{\cvexperience}[3]{%
