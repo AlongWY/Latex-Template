@@ -29,8 +29,8 @@
 \ctexset{
     fontset=windowsnew,
     section={
-        name={第,章},
-        number=\arabic{section},
+        name={,、},
+        number = \chinese{section},
         format=\zihao{-3}\bfseries\raggedright
     }
 }
@@ -67,7 +67,7 @@
         \textbf{\zihao{-1} 毕业设计（论文）开题报告}
         
         \vspace{2.35cm}
-        \textbf{\zihao{-2}基于预训练模型的多任务自然语言处理模型设计与实现}
+        \textbf{\zihao{-2} \Proposal@value@topic}
         \vspace{4.55cm}
         
         \zihao{3}
