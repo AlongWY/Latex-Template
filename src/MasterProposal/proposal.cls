@@ -32,6 +32,9 @@
         name={,、},
         number = \chinese{section},
         format=\zihao{-3}\bfseries\raggedright\heiti
+    },
+    subsection={
+        format=\zihao{4}\raggedright\heiti
     }
 }
 
