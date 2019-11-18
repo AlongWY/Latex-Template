@@ -31,7 +31,7 @@
     section={
         name={,、},
         number = \chinese{section},
-        format=\zihao{-3}\bfseries\raggedright
+        format=\zihao{-3}\bfseries\raggedright\heiti
     }
 }
 
@@ -79,7 +79,7 @@
         
         
         \vfill
-        {\zihao{-2} \textbf{哈尔滨工业大学教务处制}}
+        {\zihao{-2} \lishu \textbf{哈尔滨工业大学教务处制}}
     \end{center}
     \newpage
 }
