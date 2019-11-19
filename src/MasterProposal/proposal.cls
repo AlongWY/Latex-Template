@@ -11,7 +11,7 @@
 
 % 链接点击
 \RequirePackage{cite,setspace}
-\RequirePackage[colorlinks,linkcolor=black,anchorcolor=blue,citecolor=green]{hyperref}
+\RequirePackage[colorlinks,linkcolor=black,anchorcolor=black,citecolor=black]{hyperref}
 
 % 图表相关
 \RequirePackage{float,graphicx,tikz,pgfplots,array}
@@ -23,8 +23,12 @@
 
 % 设置页眉
 \RequirePackage{fancyhdr}
-\bibliographystyle{plain}
+
+% 参考文献引用顺序
+\bibliographystyle{unsrt}
 \numberwithin{figure}{section}
+
+
 
 \ctexset{
     fontset=windowsnew,
