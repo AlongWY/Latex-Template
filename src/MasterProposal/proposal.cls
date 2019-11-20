@@ -48,8 +48,7 @@
 \setCJKsansfont[AutoFakeBold=true,AutoFakeSlant=true]{Microsoft YaHei}
 \setCJKmonofont[AutoFakeBold=true,AutoFakeSlant=true]{KaiTi}
 
-% 没有页眉页脚
-\pagestyle{empty}
+\pagestyle{fancy}
 
 % 题目
 \newcommand\info[6]{
@@ -65,6 +64,7 @@
 
 \renewcommand\maketitle{%
     \clearpage
+    \thispagestyle{empty}
     \begin{center}
         \rule[1.10cm]{\linewidth}{0cm}
         \includegraphics[height=1.11cm,width=5.92cm]{media/HIT}
