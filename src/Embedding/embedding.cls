@@ -3,7 +3,7 @@
 
 \LoadClass{BaseSetting}[2017/1/1]
 
-\fancyhead[C]{\heiti 计算机系统实验报告}
+\fancyhead[C]{\heiti 嵌入式系统设计与实现实验报告}
 
 % 实验题目，院系，姓名，学号，选课类别，日期
 \newcommand\info[6]{
