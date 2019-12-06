@@ -1,4 +1,4 @@
-# Latex
+# Latex Templates ![GitHub](https://img.shields.io/github/license/alongwy/hit-workshop?style=for-the-badge)
 
 [深入理解计算机系统](src/CSAPP/README.md)
 
